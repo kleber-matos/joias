@@ -1,0 +1,56 @@
+.col {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.carousel-item img {
+    width: 80%;
+    height: 500px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.spinner-border .visually-hidden {
+    visibility: hidden;
+    display: none;
+}
+
+.preloader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(117, 117, 117, 0.514);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+}
+
+.fade-out-animation {
+    opacity: 0;
+    visibility: hidden;
+}
+
+footer {
+    background-color: rgba(235, 235, 235, 0.753);
+    padding: 20px;
+}
+ 
+
+table th, tr{
+    text-align: center;
+}
+
+
+table td {
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
